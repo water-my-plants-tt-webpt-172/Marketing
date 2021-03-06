@@ -225,12 +225,14 @@ html {
   html {
     font-size: 14pt;
   }
+  
 }
 
 @media screen and (max-width: 736px) {
   html {
     font-size: 12pt;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -3423,6 +3425,7 @@ ul.feature-icons li:nth-child(2) {
 #wrapper > section.intro > header {
   padding-top: 4rem;
   width: 100%;
+  
 }
 
 #wrapper > section.intro > header > * {
@@ -3632,6 +3635,7 @@ ul.feature-icons li:nth-child(2) {
 
   #wrapper section > header ul.actions {
     justify-content: flex-start;
+    
   }
 
   #wrapper section > .content {
@@ -3716,9 +3720,9 @@ ul.feature-icons li:nth-child(2) {
     margin-bottom: 0;
   }
 
-  #wrapper > section.intro > header ul.actions {
+  /* #wrapper > section.intro > header ul.actions {
     display: none;
-  }
+  } */
 
   #wrapper > section.intro > header > * {
     margin-left: 0;
